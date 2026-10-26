@@ -22,3 +22,8 @@ footer{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);f
 footer a{color:var(--muted);margin-right:14px}
 .todo{background:#fff3c4;color:#5a4500;padding:0 4px;border-radius:3px}
 @media (prefers-color-scheme:dark){.todo{background:#4a3d0a;color:#ffe9a3}}
+table.data{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+table.data th,table.data td{border:1px solid #dadce0;padding:8px;vertical-align:top;text-align:left}
+table.data th{background:#f1f3f4}
+@media (max-width:600px){table.data,table.data tr,table.data td,table.data th{display:block;width:auto}table.data tr{margin-bottom:10px}}
+@media (prefers-color-scheme:dark){table.data th{background:#2a2f36}table.data th,table.data td{border-color:#3c4043}}
